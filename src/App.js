@@ -8,7 +8,7 @@ function App() {
     email: "helal.abbas110@gmail.com",
     availability: "Open for work",
     brand:
-      "My unique blend of technical expertise, creative thinking, and background in psychology allows me to approach each project with a deep understanding of the end user's perspective, resulting in highly effective user-centred digital products.",
+      "Highly skilled and motivated full-stack developer with over 2 years of experience in MERN and MEAN stack development. Seeking to leverage my expertise in building scalable and efficient web applications to contribute to a dynamic team that values innovation and continuous learning. With a strong foundation in front-end and back-end development, I am committed to delivering high-quality code and exceptional user experiences.",
   };
 
   return (

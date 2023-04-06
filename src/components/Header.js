@@ -8,7 +8,7 @@ const Header = () => {
     <header className="header">
       
       <NavLinks />
-      <img className="logo" src={logo2} alt="Michael Yeates' Logo" />
+      <img className="logo" src={logo2} alt="Helal Abbas' Logo" />
     </header>
   );
 };
