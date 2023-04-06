@@ -58,7 +58,10 @@ const Landing = ({ name }) => {
                 .typeString("MEAN Stack Developer")
                 .pauseFor(1500)
                 .deleteAll()
-                .typeString("Bringing your ideas to life")
+                .typeString("Let's connect")
+                .pauseFor(12)
+                .deleteAll()
+                .typeString("Converting your ideas into reality")
                 .start();
             }}
           />

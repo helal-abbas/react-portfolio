@@ -61,7 +61,7 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                   <span>Name:</span>
                   <p>Helal Abbas</p>
                 </div>
-                <div className="col-12 col-md-6 info">
+                <div className="col-12 col-md-6 info" style={{marginLeft: "50px"}}>
                   <span>Email:</span>
                   <p>
                     <a href={`mailto:${email}`}>{email}</a>
