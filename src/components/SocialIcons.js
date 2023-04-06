@@ -10,10 +10,10 @@ const SocialIcons = () => {
 
   return (
     <div className="socialIcons">
-      <a className="icon" style={styles.icon} href="https://github.com/syedabbas110">
+      <a className="icon" style={styles.icon} href="https://github.com/syedabbas110" target="_blank">
         <i className="fa-brands fa-github" aria-hidden="true" title="Helal Abbas' GitHub Profile"></i>
       </a>
-      <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/syed-helal-abbas/">
+      <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/syed-helal-abbas/" target="_blank">
         <i className="fa-brands fa-linkedin" aria-hidden="true" title="Helal Abbas' LinkedIn Profile"></i>
       </a>
       {/* <a className="icon" style={styles.icon} href="https://www.instagram.com/michael.yeates/">
