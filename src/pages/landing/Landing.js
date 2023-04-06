@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import landingImage from "../../images/zyro-image.png"
+// import landingImage from "../../images/zyro-image.png"
+import landingImage from "../../images/images.png"
 import Draw from "../../components/Draw";
 import SocialIcons from "../../components/SocialIcons";
 

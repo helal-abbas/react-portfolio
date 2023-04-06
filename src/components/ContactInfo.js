@@ -1,5 +1,5 @@
 import { useInView } from "react-intersection-observer";
-import { motion } from "framer-motion";
+import { color, motion } from "framer-motion";
 
 const ContactInfo = ({ name, email, location }) => {
   const [ref, inView] = useInView({
@@ -16,7 +16,7 @@ const ContactInfo = ({ name, email, location }) => {
       
     >
       <h4 className="contentTitle">Contact Information</h4>
-      <p className="infoDescription" style={{color:'pink'}}>Open for opportunities. Let's connect and build something awesome together! </p>
+      <p className="infoDescription">Open for opportunities. Let's connect and build something awesome together! </p>
       <ul className="listInfo" >
         <li>
           <div className="personalContactInfo">
@@ -25,7 +25,7 @@ const ContactInfo = ({ name, email, location }) => {
             </span>
             <div className="mediaWrap">
               <h6 className="infoType" style={{color:'white'}}>Name</h6>
-              <span className="infoValue" style={{color:'pink'}}>{name}</span>
+              <span className="infoValue">{name}</span>
             </div>
           </div>
         </li>
@@ -36,7 +36,7 @@ const ContactInfo = ({ name, email, location }) => {
             </span>
             <div className="mediaWrap">
               <h6 className="infoType" style={{color:'white'}}>Location</h6>
-              <span className="infoValue" style={{color:'pink'}}>{location}</span>
+              <span className="infoValue" >{location}</span>
             </div>
           </div>
         </li>
@@ -48,7 +48,20 @@ const ContactInfo = ({ name, email, location }) => {
             <div className="mediaWrap">
               <h6 className="infoType">Email</h6>
               <span className="infoValue" >
-                <a href={`mailto:${email}`} style={{color:'pink'}}>{email}</a>
+                <a href={`mailto:${email}`}>{email}</a>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className="personalContactInfo">
+            <span className="infoIcon">
+              <i className="fa-brands fa-whatsapp" style={{fontSize: "xx-large", color: "var(--hl-color)"}}></i>{" "}
+            </span>
+            <div className="mediaWrap">
+              <h6 className="infoType">Mobile No.</h6>
+              <span className="infoValue" >
+              <span className="infoValue">+91 9129204647</span>
               </span>
             </div>
           </div>
