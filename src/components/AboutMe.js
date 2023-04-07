@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-// import resume from "../pages/about/Helal_Resume_.pdf";
-import resume from "../pages/about/testApril.pdf";
+import resume from "../pages/about/Helal_Resume_.pdf";
+import ppr from "../pages/about/testApril.pdf";
 import profile from "../images/profile.png";
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
@@ -81,10 +81,10 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               </div>
             </div>
             <div className="buttonContainer">
-              {/* <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
+              <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
                 {downloading ? "Downloading..." : "Download Resume"}
-              </button>{" "} */}
-              <a href={resume} target="_blank">Download Resume</a>
+              </button>{" "}
+              <a href={ppr} target="_blank">Download Resume</a>
               <SocialIcons />
             </div>
           </div>
