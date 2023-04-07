@@ -4,6 +4,7 @@ import SocialIcons from "../components/SocialIcons";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import resume from "../pages/about/Helal_Resume_.pdf";
+import resume from "../pages/about/testApril.pdf";
 import profile from "../images/profile.png";
 const AboutMe = ({ name, email, location, availability, brand }) => {
   const [ref, inView] = useInView({
