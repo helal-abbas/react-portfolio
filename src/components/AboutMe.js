@@ -84,7 +84,6 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
               <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
                 {downloading ? "Downloading..." : "Download Resume"}
               </button>{" "}
-              <a href={ppr} target="_blank">Download Resume</a>
               <SocialIcons />
             </div>
           </div>
